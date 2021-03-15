@@ -1,0 +1,86 @@
+#background {
+    background-color: #040C4CBF;
+    text-align: left;
+    color: white;
+    font-family: Courier New;
+    padding-top: 75px;
+}
+
+#header {
+    position: fixed;
+    font-family: Courier New, Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+#lists a {
+    font-size: 15px;
+    color: white;
+}
+
+#headertext {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    background-color: #14213D;
+    align-content: center;
+    margin: 0.55rem;
+}
+
+#intro {
+    font-size: 80px;
+    text-align: center;
+    padding: 100px;
+}
+
+#mainbod {
+    padding: 20px;
+    background-color: #09146AB3;
+}
+
+#footer {
+    background-color: #040C4CEB;
+    padding: 30px;
+}
+
+.headings {
+    text-align: left;
+    font-family: monospace;
+    color: white;
+}
+
+.para {
+    font-size: 20px;
+}
+
+/*NAVIGATION*/
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #2F366A;
+    box-shadow: 0 2px 0 #2D377F;
+}
+
+.navlist {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.navlist a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navlist a:hover {
+    background: #09146AA1;
+}
