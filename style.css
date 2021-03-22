@@ -70,10 +70,25 @@ body {
     margin: 0.55rem;
 }
 
+#intro {
+    text-align: center;
+}
+
 #welcome {
     font-size: 80px;
     text-align: center;
     padding: 100px;
+}
+
+#welcome-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    border: dashed;
+    border-color: white;
 }
 
 #mainbod {
