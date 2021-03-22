@@ -1,59 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+
 body {
     background-color: #040C4CBF;
     text-align: left;
     color: white;
     font-family: Courier New;
     padding-top: 75px;
-}
-
-#header {
-    position: fixed;
-    font-family: Courier New, Courier, monospace;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    top: 0;
-}
-
-#lists a {
-    font-size: 15px;
-    color: white;
-}
-
-#headertext {
-    width: auto;
-    height: auto;
-    font-size: 30px;
-    background-color: #14213D;
-    align-content: center;
-    margin: 0.55rem;
-}
-
-#intro {
-    font-size: 80px;
-    text-align: center;
-    padding: 100px;
-}
-
-#mainbod {
-    padding: 20px;
-    background-color: #09146AB3;
-}
-
-#footer {
-    background-color: #040C4CEB;
-    padding: 30px;
-}
-
-.headings {
-    text-align: left;
-    font-family: monospace;
-    color: white;
-}
-
-.para {
-    font-size: 20px;
 }
 
 /*============*/
@@ -86,4 +40,62 @@ body {
 
 .navlist a:hover {
     background: #09146AA1;
+}
+
+/*===========*/
+/*    IDS    */
+/*===========*/
+
+#header {
+    position: fixed;
+    font-family: "Pangolin", Courier New;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+#lists a {
+    font-size: 15px;
+    color: white;
+}
+
+#headertext {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    background-color: #14213D;
+    align-content: center;
+    margin: 0.55rem;
+}
+
+#welcome {
+    font-size: 80px;
+    text-align: center;
+    padding: 100px;
+}
+
+#mainbod {
+    padding: 20px;
+    background-color: #09146AB3;
+}
+
+#footer {
+    background-color: #040C4CEB;
+    padding: 30px;
+}
+
+/*===========*/
+/*  CLASSES  */
+/*===========*/
+
+.headings {
+    text-align: left;
+    font-family: "Pangolin", Courier New;
+    color: white;
+}
+
+.para {
+    font-size: 20px;
 }
