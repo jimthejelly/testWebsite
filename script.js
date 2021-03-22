@@ -6,10 +6,10 @@ setInterval(change, 3000);
 
 function change() {
     elem.fadeOut(function () {
-        elem.html(text[counter]);
-        counter++;
-        if (counter >= text.length) {
-          counter = 0;
+        elem.html(text[count]);
+        count++;
+        if (count >= text.length) {
+          count = 0;
         }
         elem.fadeIn();
   });
