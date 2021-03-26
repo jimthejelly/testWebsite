@@ -91,9 +91,14 @@ body {
     border-color: white;
 }
 
-#mainbod {
+#about {
     padding: 20px;
     background-color: #09146AB3;
+}
+
+#mainbod {
+    padding: 20px;
+    background-color: #08026AB3;
 }
 
 #footer {
