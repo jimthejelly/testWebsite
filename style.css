@@ -52,30 +52,8 @@ a:hover {
 }
 
 /*===========*/
-/*    IDS    */
+/*   INTRO   */
 /*===========*/
-
-#header {
-    position: fixed;
-    font-family: "Coming Soon", Courier New;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    top: 0;
-}
-
-#lists a {
-    font-size: 15px;
-}
-
-#headertext {
-    width: auto;
-    height: auto;
-    font-size: 30px;
-    align-content: center;
-    margin: 0.55rem;
-}
 
 #intro {
     text-align: center;
@@ -90,12 +68,6 @@ a:hover {
     font-family: "Coming Soon";
 }
 
-#about {
-    box-shadow: 0 4px 4px #474747;
-    padding: 20px;
-    vertical-align: middle;
-}
-
 #mainbod {
     padding: 20px;
     justify-content: flex-end;
@@ -104,16 +76,14 @@ a:hover {
     width: 100%;
 }
 
-#footer {
-    padding: 30px;
-}
-
+/*==========*/
 /* PROJECTS */
+/*==========*/
+
 .time{
     font-size: 16px;
     font-weight: 400;
     color: #ebaca2;
-    padding-bottom: 10px;
 }
 
 .image {
@@ -141,16 +111,7 @@ a:hover {
     color: #212e53;
 }
 
-#Project1 {
-    padding: 50px;
-    padding-bottom: 50px;
-}
-
-#Project2 {
-    padding: 50px;
-}
-
-#Project3 {
+.Project {
     padding: 50px;
 }
 
@@ -180,4 +141,16 @@ a:hover {
 /*==========*/
 #footer {
     background: #4a919e;
+    width: 100%;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
