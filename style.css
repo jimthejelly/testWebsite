@@ -6,7 +6,7 @@ body {
     background-color: #040C4CBF;
     text-align: left;
     color: white;
-    font-family: Courier New;
+    font-family: "Pangolin", Courier New;
     padding-top: 75px;
 }
 
@@ -48,7 +48,7 @@ body {
 
 #header {
     position: fixed;
-    font-family: "Pangolin", Courier New;
+    font-family: "Coming Soon", Courier New;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -72,23 +72,14 @@ body {
 
 #intro {
     text-align: center;
+    padding: 60px;
 }
 
 #welcome {
-    font-size: 80px;
+    font-size: 150px;
     text-align: center;
     padding: 100px;
-}
-
-#welcome-button {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    background-color: transparent;
-    color: white;
-    border-radius: 50%;
-    border: dashed;
-    border-color: white;
+    font-family: "Coming Soon";
 }
 
 #about {
@@ -126,8 +117,16 @@ body {
 
 .headings {
     text-align: left;
-    font-family: "Pangolin", Courier New;
+    font-family: "Coming Soon", Courier New;
     color: white;
+    font-size: 50px;
+}
+
+.project-headings {
+    text-align: left;
+    font-family: "Coming Soon", Courier New;
+    color: white;
+    font-size: 30px;
 }
 
 .para {
